@@ -21,7 +21,18 @@
             </h3>
         </div>
 
-        <div class="tabs_menu">
+        <div class="align-end">
+            <button onclick="toggleDarkMode()">dark mode</button>
+
+            <script>
+                function toggleDarkMode() {
+                    const body = document.querySelector('body');
+                    body.classList.toggle('dark-mode');
+                }
+            </script>
+        </div>
+
+        <div class="tabs-menu">
                     <a href="index.html">about</a>
     
                     <a href="relevant_projects.html">relevant projects</a>
