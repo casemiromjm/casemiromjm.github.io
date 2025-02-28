@@ -14,13 +14,13 @@
 </head>
 
 <body>
-    <div>
-        <div>
-            <h3 class="title">
-                casemiromjm
-            </h3>
-        </div>
+    <!-- common header for all pages -->
+    <header>
+        <h1 class="title">
+            casemiromjm
+        </h1>
 
+        <!-- unecessary for now, might be useful for further updates
         <div class="align-end">
             <button onclick="toggleDarkMode()">dark mode</button>
 
@@ -29,26 +29,37 @@
                     const body = document.querySelector('body');
                     body.classList.toggle('dark-mode');
                 }
-            </script>
-        </div>
+            </script> -->
 
-        <div class="tabs-menu">
-                    <a href="index.html">about</a>
-    
-                    <a href="relevant_projects.html">relevant projects</a>
-        </div>
+            
+        <nav class="tabs-menu">
+            <a href="index.html">about</a>
 
-        <div>
-            <p>
-                Hej, I'm Casemiro Melo Jorge and I'm 22 years old!
-            </p>
+            <a href="relevant_projects.html">relevant projects</a>
+        </nav>
+    </header>
 
-            <p>
-                I'm currently pursuing a bachelor's degree in Informatics and Computing Engineering at <em><a href="https://fe.up.pt" target="_blank" rel="noopener noreferrer">FEUP - UPorto</a></em>
-            </p>
+    <main>
+        <p>
+            Hej, I'm Casemiro and I'm 22 years old!
+        </p>
 
-        </div>
-    </div>
+        <p>
+            I'm currently pursuing a bachelor's degree in Informatics and Computing Engineering at <em><a href="https://fe.up.pt" target="_blank" rel="noopener noreferrer">FEUP - UPorto</a></em>
+        </p>
+
+        <ol>
+            <li>LinkedIn</li>
+            <li>Github</li>
+            <li>email</li>
+        </ol>
+
+    </main>
+
+    <!-- commont footer for all pages -->
+    <footer>
+        <p>2025 &copy; Casemiro Melo Jorge</p>
+    </footer>
 </body>
 
 </html>
