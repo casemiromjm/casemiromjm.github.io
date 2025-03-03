@@ -3,6 +3,15 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     /* transition: background-color 0.3s, color 0.3s; */
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 3%;
+
+    /* dark mode as default */
+    background-color: #333;
+    color: white;
+
+    font-size: 1.1em;
 }
 
 .title {
@@ -11,7 +20,9 @@ body {
 }
 
 .tabs-menu {
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 /* wont be needing this for now
@@ -19,3 +30,39 @@ body {
     background-color: #333;
     color: white;
 } */
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+  
+a:visited {
+    color: inherit;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.curr-page {
+    text-decoration: none;
+    opacity: 70%;
+    pointer-events: none;
+}
+
+.footer {
+    font-size: small;
+}
+
+.div-bar {
+    margin: 20px 0;
+}
+
+.link {
+    opacity: 80%;
+}
