@@ -8,3 +8,4 @@ The file structure is a bit different because I wanted the URLs to be clean and 
 
 ## To Do
 - [ ] Make it more mobile friendly
+- [ ] Use php for smart building the html pages and apply DRY
