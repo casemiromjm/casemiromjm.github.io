@@ -1,0 +1,6 @@
+<nav class="tabs-menu">
+  <!-- cant use page, because it is reserved. item is a page in navigation yaml -->
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %} class="curr-page" {% endif %}>{{item.name}}</a>
+  {% endfor %}
+</nav>

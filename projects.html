@@ -1,0 +1,12 @@
+---
+layout: default
+permalink: /projects/
+---
+<section>
+  {% for proj in site.data.projects %}
+    <article>
+        <h2><a href=" {{ proj.link }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a></h2>
+        <p>{{ proj.description }}</p>
+    </article>
+  {% endfor %} 
+</section>
