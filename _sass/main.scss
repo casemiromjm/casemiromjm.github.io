@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+@media (min-width: 768px) {
+    body {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     
     /* preciso consertar essa gambiarra pra ficar bom no celular tb */
-    width: 40%;
-    margin: 0 auto;
     margin-top: 3%;
 
     /* dark mode as default */
@@ -23,6 +28,7 @@ h1 {
 .tabs-menu {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -35,7 +41,7 @@ a:visited {
     color: inherit;
 }
 
-/* a that is a child of h1 */
+/* a that is a direct child of h1 */
 h1 > a {
     text-decoration: none;
 }
@@ -51,7 +57,7 @@ em {
     pointer-events: none;
 }
 
-.footer {
+footer {
     font-size: small;
 }
 
