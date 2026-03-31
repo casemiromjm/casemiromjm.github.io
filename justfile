@@ -2,5 +2,5 @@ _default:
     @just -l
 
 # Host local development server
-serve:
-    @bundle exec jekyll serve
+serve *args:
+    @bundle exec jekyll serve {{args}}
