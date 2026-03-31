@@ -7,6 +7,11 @@ permalink: /projects/
     <article>
         <h2><a href=" {{ proj.link }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a></h2>
         <p>{{ proj.description }}</p>
+        <div class="tag-list">
+          {% for tag in proj.tags %}
+          <span class="tag"> {{ tag }}</span>
+          {% endfor %}
+        </div>
     </article>
   {% endfor %} 
 </section>
