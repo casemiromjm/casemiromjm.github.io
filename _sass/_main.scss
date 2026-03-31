@@ -68,3 +68,25 @@ footer {
 .link {
     opacity: 80%;
 }
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag {
+    background: #e3e8ee;        /* Soft color */
+    color: #2366d1;             /* Accent text */
+    border-radius: 12px;
+    padding: 3px 12px;
+    font-size: 0.6em;
+    border: 1px solid #b7c3d2;
+    letter-spacing: .05em;
+    margin: 2px 0;
+    transition: background 0.2s;
+}
+
+.tag:hover {
+    background: #d3e2f0;
+}
