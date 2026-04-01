@@ -1,8 +1,122 @@
-# Stores all projects that are on my site. If it is fine for being open source, it has the github link. Otherwise there is the link to a page talking about the project itself
+# Stores all projects that are on my site. 
+# If it is fine for being open source, it has the github link. 
+# Otherwise there is the link to a page talking about the project itself
+
+# - name: Project Name
+#   link: project link (can be repo link or a page talking about it)
+#   description: brief description
+#   tags: [tags] -> academic, tech stack...
+#   date: ending date (or last updated) -> YYYY-MM
+#   featured: true | false -> keep 5 featured + 1 card p see all sorted by date
+
+# - name: 
+#   link:
+#   description:
+#   tags: []
+#   date:
+#   featured:
 
 - name: Portfolio Site
   link: https://github.com/casemiromjm/casemiromjm.github.io
   description: As the name suggests, this project is about this site you are visiting.
-- name:
+  tags: [Jekyll]
+  date: 2026-04
+  featured: false
+
+- name: PathoVision
   link:
   description:
+  tags: [EMBS, Python, Machine Learning]
+  date:
+  featured: true
+
+- name: PetLink
+  link: https://github.com/casemiromjm/petlink
+  description: PetLink is a freelance platform for pet-related services developed for LTW 2024/25 course @ FEUP
+  tags: [uni, PHP, WebDev]
+  date: 2025-05
+  featured: false
+
+- name: SVG-to-PNG
+  link: https://github.com/casemiromjm/svg-to-png
+  description: SVG to PNG converter done as part of the Programming 2023/24 course @ FEUP
+  tags: [uni, C++]
+  date: 2024-05
+  featured: false
+
+- name: minixsweeper
+  link: https://github.com/casemiromjm/minixsweeper
+  description: Game inspired in Minesweeper developed in LCOM Minix 3 Environment for LCOM 2024/25 course @ FEUP
+  tags: [uni, C, Minix3]
+  date: 2025-05
+  featured: true
+
+- name: Pathfinding Tool
+  link: https://github.com/casemiromjm/DA-pathfinder
+  description: A pathfinding tool developed as Project 1 for DA 2024/25 course @ FEUP 
+  tags: [uni, C++, Dijkstra]
+  date: 2025-03
+  featured: true
+
+- name: Truck Pallet Packing
+  link: https://github.com/casemiromjm/DA-truck-pallet-packing
+  description: A tool for packing pallets in a truck developed as Project 2 for DA 2024/25 course @ FEUP
+  tags: [uni, C++, Knapsack Problem]
+  date: 2025-05
+  featured: true
+
+- name: ItemSwap
+  link: https://github.com/casemiromjm/ItemSwap
+  description: ItemSwap is a mobile app for swapping unwanted items developed as part of ESOF 2024/25 course @ FEUP 
+  tags: [uni, Mobile, Flutter, Dart]
+  date: 2025-05
+  featured: false
+
+- name: Alpha Squad
+  link: https://github.com/casemiromjm/alphasquad
+  description: A turn-based strategy game developed as part of LDTS 2024/24 course @ FEUP
+  tags: [uni, Java]
+  date: 2024-12
+  featured: false
+
+- name: Padaria Database
+  link: https://github.com/casemiromjm/padaria-database
+  description: Database project done in Database 2024/25 course @ FEUP 
+  tags: [uni, SQLite3]
+  date: 2024-12
+  featured: false
+
+- name: File Transfer over RS232
+  link: https://github.com/casemiromjm/RCOM-RS232-FileTransfer
+  description: Protocol for File Transmission over RS-232 port developed for RCOM 2025/26 course @ FEUP
+  tags: [uni, C, ARQ Protocol]
+  date: 2025-11
+  featured: true
+
+- name: Haskulator
+  link: https://github.com/casemiromjm/haskulator
+  description: Simple calculator developed as Project 1 (Functional Programming) for PFL 2025/26 course @ FEUP
+  tags: [uni, Haskell]
+  date: 2026-11
+  featured: false
+
+- name: Uluru Board Game
+  link: https://github.com/casemiromjm/uluru
+  description: Uluru Board Game developed as Project 2 (Logical Programming) for PFL 2025/26 course @ FEUP
+  tags: [uni, Prolog]
+  date: 2026-01
+  featured: false
+
+- name: Mufetti
+  link: https://github.com/casemiromjm/mufetti
+  description: A social network developed with Laravel and Tailwind for LBAW 2025/26 course @ FEUP 
+  tags: [uni, Laravel, Tailwind, WebDev]
+  date: 2025-12
+  featured: true
+
+- name: FTP Download Client
+  link: https://github.com/casemiromjm/RCOM-FTP-download-app
+  description: Simple FTP client for downloading files from a FTP server developed for RCOM 2025/26 course @ FEUP 
+  tags: [uni, C, Computer Networks]
+  date: 2025-12
+  featured: true

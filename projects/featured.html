@@ -3,15 +3,30 @@ layout: default
 permalink: /projects/featured
 ---
 <section>
-  {% for proj in site.data.projects %}
-    <article>
-        <h2><a href=" {{ proj.link }}" target="_blank" rel="noopener noreferrer">{{ proj.name }}</a></h2>
-        <p>{{ proj.description }}</p>
-        <div class="tag-list">
-          {% for tag in proj.tags %}
-          <span class="tag"> {{ tag }}</span>
-          {% endfor %}
-        </div>
+  <div class="card-container">
+
+    {% for proj in site.data.projects %}
+      {% if proj.featured == true %}
+        <article class="card">
+          <a href=" {{ proj.link }}" target="_parent" rel="noopener noreferrer">
+            <h2>{{ proj.name }}</h2>
+            <p>{{ proj.description }}</p>
+          </a>
+          <div class="tag-list">
+            {% for tag in proj.tags %}
+              <span class="tag"> {{ tag }}</span>
+            {% endfor %}
+          </div>
+        </article>
+        {% endif %}
+    {% endfor %}
+  
+    <article class="card">
+      <a href="{{ '/projects/all' | relative_url }}">
+        <h2>See all projects here!</h2>
+        <p>Browse through my complete archive of work and experiments :)</p>
+      </a>
     </article>
-  {% endfor %} 
+  
+  </div>
 </section>
